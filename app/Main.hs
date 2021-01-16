@@ -16,7 +16,7 @@ import Control.Applicative
 
 main :: IO ()
 main = do
-    let bot = Bot "1077579435:AAGx0QNkCU3PGV8TzsARjYhrDdf-1p28518"
+    let bot = Bot "токен я уже изменил, можете не говорить про то, что я его спалил"
     
     updates <- bot&getMe
     mes <- bot&sendMessage "728729538" "lolo"
