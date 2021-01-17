@@ -25,7 +25,8 @@ source-repository head
 
 library
   exposed-modules:
-      Lib
+      Telegram.Commands
+      Telegram.Types
   other-modules:
       Paths_haskell_telegram
   hs-source-dirs:
